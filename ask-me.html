@@ -1071,7 +1071,7 @@
       await sleep(readTime);
 
       try {
-        const res = await fetch('https://ishan-ai-chat.vercel.app/api/chat', {
+        const res = await fetch('https://ishan-ai-chat.vercel.app/api1/chat', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ message: text })
